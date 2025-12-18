@@ -25,7 +25,7 @@ env:
   CONTRAST_APP_ID: 'df5373e9-3a1c-42ac-ab3c-2f7c00c15981'
 
   # Build configuration
-  BUILD_COMMAND: './mvnw clean test -B'
+  BUILD_COMMAND: 'cd services/frontgateservice && ./mvnw clean test -B'
 
 jobs:
   generate_fixes:
